@@ -1,0 +1,36 @@
+@use 'mixin' as *;
+
+
+
+@include mediaqueries(0px, 700px){
+    .header {
+        width: 100%;
+        min-width: 10px;
+    }
+
+    .header__title {
+        font-size: 3rem;
+    }
+    .header__navigation {
+        padding: 10px;
+    }
+    .about-section__title {
+        font-size: 4rem;
+    }
+    .about-section__description {
+        font-size: 2rem;
+    }
+    .programming-section__list img {
+     max-width: 100%;
+     width: 100%;
+     min-width: 0px
+    }
+    .programming-section__list {
+        display: grid;
+        row-gap: 2.5rem;
+        width: 100%;
+        min-width: 0px
+    }
+}
+
+

@@ -1,0 +1,124 @@
+
+
+
+// Header Navigation
+.header__navigation {
+    display: grid;
+    padding: 50px;
+    align-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+    font-size: 4rem;
+}
+
+.header__wrapper, .header__title {
+    grid-area: 1/-1/1/-1;
+}
+
+.header__wrapper {
+    background-color: #27272791;
+    border-radius: 20px;
+}
+
+
+.wrapper--header {
+    background-image: url(/imgs/main_image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header__title {
+    z-index: 2;
+    text-align: center;
+
+}
+
+// About Section component
+
+
+.about-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    color: white;
+    margin-bottom: 5rem;
+  }
+  
+  .about-section__image, .about-section__title, .about-section__description {
+    grid-column: 1/-1;
+    grid-row: 1/-1;
+  }
+  
+  .about-section__title {
+    font-size: 8rem;
+  }
+  
+  .about-section__description {
+    font-size: 4rem;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ffffff, 0 0 40px #ffffff, 0 0 50px #ffffff, 0 0 60px #ffffff, 0 0 70px #ffffff;
+  }
+  
+  .about-section__highlight {
+    color: rgb(165, 1, 1);
+    text-shadow: 5px 5px 50px #ff0000;
+ }
+
+.about-section__title, .about-section__description {
+    z-index: 5;
+}
+
+// Programming component
+.programming-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.programming-section__title {
+    color: white;
+    text-align: center;
+}
+
+
+.programming-section__list {
+    background-color: #ffffff88;
+    padding: 10px;
+    border-radius: 20px;
+    justify-content: center;
+    column-gap: 2rem;
+    display: flex;
+}
+
+.programming-section__list img{
+    max-width: 50px;
+}
+
+
+.about-project {
+    text-align: center;
+    background-color: rgb(2, 95, 0);
+    color: white;
+}
+
+.about-project__title {
+    font-size: 3em;
+}
+
+
+
+
+//  Footer component 
+footer {
+    font-weight: bold;
+    font-size: 2rem;
+    align-self: flex-end;
+    color: white;
+}
+
+
+#copyright {
+    text-align: center;
+}
+
