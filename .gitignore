@@ -3,3 +3,4 @@ source/package.json
 source/package-lock.json
 
 css/index.css.map
+source/assets/scss
